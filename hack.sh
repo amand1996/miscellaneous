@@ -5,7 +5,7 @@ do
 	git add -A
 	a="Wed May "
 	b=$i
-	c=" 14:00 2016 +0530"
+	c=" 09:00 2016 +0530"
 	export GIT_AUTHOR_DATE=$a$b$c
 	export GIT_COMMITTER_DATE=$a$b$c
 	git commit -am "hack the code"
